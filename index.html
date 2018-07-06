@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+	<head>
+<title>Cameron King</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body class="w3-content" style="max-width:1300px">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+/* Full height image header */
+.bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("me.jpg");
+    min-height: 100%;
+}
+.w3-bar .w3-button {
+    padding: 16px;
+}
+</style>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide"> CAMERON KING</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button"><i class="fas fa-user-circle"></i> ABOUT</a>
+      <a href="#code" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORK</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#code" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:18px">
+	  <p><a href="#code" class="w3-button w3-white w3-large  w3-opacity w3-hover-opacity-off">Developer</a></p>
+	  <p><a href="#code" class="w3-button  w3-white w3-large  w3-opacity w3-hover-opacity-off">Designer</a></p>
+	  <p><a href="#photo" class="w3-button w3-white  w3-large w3-opacity w3-hover-opacity-off">Photographer</a></p>
+	  <h1> </h1>
+<!--    <span class="w3-jumbo w3-hide-small">Start something that matters</span><br>--
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Start something that matters</span><br>
+    <span class="w3-large">Stop wasting valuable time with projects that just isn't you.</span>
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more and start today</a></p> -->
+  </div> 
+  <div class="w3-display-bottomleft w3-text-white w3-large" style="padding:24px 48px">
+	  <a href="http://facebook.com/cyking1233"><i class="fab fa-facebook w3-hover-opacity"></i></a>
+	  <a href="http://instagram.com/cameronyking"><i class="fab fa-instagram w3-hover-opacity"></i></a>
+	  <a href="http://github.com/16cameronk"><i class="fab fa-github w3-hover-opacity"></i></a>
+	  <a href="https://www.linkedin.com/in/cameronyking/"><i class="fab fa-linkedin w3-hover-opacity"></i></a>
+  </div>
+</header>
+	
+	
+<div id="about" class="w3-row">
+  <div   class="w3-half w3-white  w3-container" style="min-height:500px">
+    <div class="w3-padding-64 w3-center">
+    <h1>About Me</h1>
+		  <h3>Junior at <a href="http://duke.edu">Duke University</a></h3>
+        <p class="short">(Class of 2020)</p>
+		 <p>Major: <strong> Computer Science & Visual Media Studies</p> </strong> 
+        <p>Washington Duke/<a href="https://rubensteinscholars.duke.edu/">David M. Rubenstein Merit Scholar</a> <br><a href="https://ml4t.org/career-prep/">Management Leadership for Tomorrow</a> Career Prep Fellow  <br><a href="https://www1.nyc.gov/site/dycd/services/jobs-internships/nyc-ladders-for-leaders.page">NYC Ladders for Leaders</a> Participant <br> <a href="https://www.prepforprep.org/page">Prep for Prep</a> Contingent XXXIII <br> <a href="http://www.allstarcode.org/">All Star Code</a> Alumnus </p>
+   <br>
+	  <a href="CameronKing_Resume2018.pdf" class="myButton">View Resume</a>
+	</div>
+  </div>
+	<div class="w3-half w3-white w3-container w3-padding-large" style="min-height:500px" id="work">
+   <img src="me2.jpg" class="w3-margin w3-circle" alt="Person" style="width:95%">
+  </div>
+</div>
+	
+<!--
+	
+	<div class="w3-padding-64 w3-padding-large w3-center">
+     <h1 class="">About Me</h1>
+      <img src="me2.jpg" class="w3-margin w3-circle" alt="Person" style="width:20%">
+		  <h3>Junior at Duke University </h3>
+        <p class="short">(Class of 2020)</p>
+		 <p>Major: <strong>  Computer Science & Visual Media Studies</p>  </strong> 
+        <p>Washington Duke/ David M. Rubenstein Merit Scholar,  Management Leadership for Tomorrow Career Prep Fellow <br> Ladders for Leaders Participant, Prep for Prep Alumnus, All Star Code Alumnus.</p>
+			</div>
+-->
+
+	
+<!--
+  <div class="w3-half w3-dark-grey w3-text-black .w3-hover-white w3-container" style="height:700px">
+    <div class="w3-padding-64 w3-center">
+      <h1 class="">About Me</h1>
+      <img src="me2.jpg" class="w3-margin w3-circle" alt="Person" style="width:50%">
+      <div class="w3-left-align w3-padding-large">
+		  <h3>Junior at Duke University </h3>
+        <p class="short">(Class of 2020)</p>
+		  <p>Major: Computer Science & Visual Media Studies</p>
+        <p>Washington Duke/ David M. Rubenstein Merit Scholar. Management Leadership for Tomorrow. Ladders for Leaders. Prep for Prep. All Star Code.</p>
+      </div>
+    </div>
+  </div>
+</div>
+-->
+
+<!-- Second Grid: Work & Resume -->
+<div class="w3-row">
+  <div id="code" class="w3-half w3-grey w3-container" style="min-height:800px">
+    <div class="w3-padding-64 w3-center">
+      <h1>Developer</h1>
+		<i style="font-size: 54px;" class="fas fa-x10 fa-code"></i>
+      <div class="w3-left-align w3-padding-large">
+		  <p>I am a freelance web developer and currently a  software engineering intern for <a href="http://rentrezi.com">Rent Rezi</a>. I have made websites for <a href="http://www.allstarcode.org/blog/join-us-for-all-star-hacks/">All Star Hacks</a>, <a href="https://duuke.org/">Duke University Union</a>, and portfolios for various clients. 
+			View my portfolio to see some of my projects:</p> <strong>
+       <li>Web Apps </li>
+		  <li> Mobile Apps & Games</li>
+		  <li> Engineering Projects</li>  </strong> <br>
+      </div> 
+		<a href="https://16cameronk.github.io/web/" class="myButton">View Portfolio</a>
+  </div>
+	</div>
+  <div class="w3-half w3-dark-grey  w3-container" style="min-height:800px">
+    <div class="w3-padding-64 w3-center">
+     <h1>Designer</h1>
+		<i style="font-size: 54px;" class="fas fa-x10  fa-drafting-compass"></i>
+      <div class="w3-left-align w3-padding-large">
+        <p>I enjoy designing. In my free time, I like to craft a variety of products– anything from  <strong>video production</strong>,  <strong>product design</strong>, and  <strong>photo manipulation</strong></p>
+        <p>I like to work in new technologies and develop my skills in traditional softwares such as Adobe Photoshop and Illustrator, Sketch, Canva, and Premier Cut Pro</p>
+		  <p> I have worked as a Graphic Designer for The <a href="https://www.instagram.com/mlwcenter/">Mary Lou Williams Center</a> at Duke University and <a href="http://bleumag.com/">BLEU Magazine</a></p>
+      </div> 
+		<a href="http://cameronking4.github.io/html/index.html" class="myButton">View Portfolio</a>
+    </div>
+  </div>
+</div>
+
+<!-- Third Grid: Swing By & Contact -->
+<div id="photo" class="w3-row" id="contact">
+  <div class="w3-half w3-light-grey w3-container w3-center" style="height:700px">
+    <div class="w3-padding-64">
+		 <h1>Photographer</h1>
+<!--		<img src="/w3images/avatar3.png" class="w3-margin w3-circle" alt="Person" style="width:50%">-->
+		<i style="font-size: 54px;" class="fas fa-x10 fa-camera-retro"></i>
+      <div class="w3-center w3-padding-large">
+        <p>I love taking photos. Click to see my portfolio below.</p>
+      </div>
+		<img src="1.jpg" width="50%"> <br><br>
+		<a href="#" class="myButton">View Portfolio</a>
+		 </div>
+  </div>
+	
+  <div class="w3-half w3-lighter-grey w3-container" style="height:700px">
+    <div class="w3-padding-64 w3-padding-large">
+      <h1>Buy KYNG</h1>
+		<p>KYNG is my clothing brand. Click <a href="https://represent.com/store/kyng-by-cameron-king">Here</a> to buy online.</p>
+		<div class="w3-row">
+      <div class="w3-half">
+        <img src="/KYNG/2.png" style="width:80%">
+      </div>
+      <div class="w3-half">
+        <img src="/KYNG/6.png" style="width:80%">
+      </div>
+    </div>
+    <div class="w3-row w3-hide-small">
+      <div class="w3-half">
+        <img src="/KYNG/5.png" style="width:80%">
+      </div>
+      <div class="w3-half">
+        <img src="/KYNG/3.png" style="width:80%">
+      </div>
+    </div>
+	  </div>
+	   </div>
+	 </div>
+	
+	<div id="contact" class="w3-black w3-padding-64 w3-padding-large">
+		<div class=" w3-center"> 
+      <h1>Contact</h1>
+      <p class="w3-opacity">GET IN TOUCH</p> </div>
+      <form class="w3-container w3-card w3-padding-32 w3-white" action="/action_page.php" target="_blank">
+        <div class="w3-section">
+          <label>Name</label>
+          <input class="w3-input" style="width:100%;" type="text" required name="Name">
+        </div>
+        <div class="w3-section">
+          <label>Email</label>
+          <input class="w3-input" style="width:100%;" type="text" required name="Email">
+        </div>
+        <div class="w3-section">
+          <label>Message</label>
+          <input class="w3-input" style="width:100%;" type="text" required name="Message">
+        </div>
+        <button type="submit" class="w3-button w3-teal w3-right">Send</button>
+      </form>
+    </div>
+<footer class="w3-container w3-black w3-padding-16 w3-center">
+  <p>Design: Cameron King. All Rights Reserved 2018</p>
+</footer>
+
+</body>
+</html>
